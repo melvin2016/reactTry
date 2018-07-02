@@ -8,7 +8,7 @@ function RouteLayout(){
     return (
         <div>
             <Switch>
-                <Route  path="/home" component={Home}/>
+                <Route  path="/" component={Home}/>
                 <Route  path="/tweets" component={Tweets}/>
                 <Route component={NotFound}/>
             </Switch>
